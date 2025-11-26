@@ -1,0 +1,38 @@
+.header {
+    background: transparent;
+    position: absolute;
+    padding: 20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+    width: 80%;
+    z-index: 10;
+
+
+
+
+
+
+    .logo {
+        font-size: 26px;
+        font-family: 'Georgia', serif;
+        color: var(--accent);
+    }
+
+    .nav {
+        display: flex;
+        gap: 24px;
+
+        a {
+            text-decoration: none;
+            color: #f9f9f9;
+            font-size: 16px;
+        }
+
+        a:hover {
+            color: var(--accent);
+        }
+    }
+}

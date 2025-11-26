@@ -1,0 +1,49 @@
+section.hero {
+    padding: 80px 20px;
+    text-align: center;
+    position: relative;
+
+    background-image: 
+        radial-gradient(circle at 30% 50%, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),
+        url('src/assets/images/download.jpg');
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+    h1 {
+        font-size: 42px;
+        color: var(--accent);
+    }
+
+    p {
+        color: white;
+        margin-top: -10px;
+        margin-bottom: 30px;
+    }
+
+    /* Search box */
+    .search {
+        padding: 14px;
+        width: 300px;
+        border-radius: 8px;
+        border: 2px solid var(--border);
+        margin-bottom: 20px;
+    }
+
+    /* Button */
+    .explore {
+        padding: 12px 28px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        background: var(--accent);
+        color: white;
+    }
+
+    .explore:hover {
+        background: var(--accent-light);
+    }
+
+
+
+}
