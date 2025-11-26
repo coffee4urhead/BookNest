@@ -1,38 +1,35 @@
 .header {
     background: transparent;
     position: absolute;
-    padding: 20px ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-   
-    width: 80%;
+    padding: 20px;
+    width: 100%;
     z-index: 10;
-
-
-
-
-
-
-    .logo {
-        font-size: 26px;
-        font-family: 'Georgia', serif;
-        color: var(--accent);
-    }
 
     .nav {
         display: flex;
-        gap: 24px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
 
-        a {
-            text-decoration: none;
-            color: #f9f9f9;
-            font-size: 16px;
-        }
-
-        a:hover {
+        
+        div {
+            .logo {
+            font-size: 25px;
+            font-family: 'Georgia', serif;
             color: var(--accent);
+            display: inline-block;
+            margin-right: 25px;
+        }
+            a {
+                text-decoration: none;
+                color: #f9f9f9;
+                font-size: 16px;
+                margin-right: 25px;
+            }
+            
+            a:hover {
+                color: var(--accent);
+            }
         }
     }
 }
